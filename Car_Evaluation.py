@@ -1,3 +1,6 @@
+# using logisticRegression classification algorithm
+
+
 import pandas as pd  # for data manipulation
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression # for regression model
@@ -36,5 +39,6 @@ y_pred=model.predict(X_test)
 
 print("\naccuracy:",accuracy_score(y_test,y_pred))
 print("\nclassification report:\n",classification_report(y_test,y_pred))
+
 
 
