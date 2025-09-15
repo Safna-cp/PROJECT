@@ -1,3 +1,6 @@
+# using logisticRegression classification algorithm
+
+
 import pandas as pd  # for data manipulation
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier # for classification model
@@ -39,3 +42,4 @@ y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
 print("\nConfusion Matrix:\n", confusion_matrix(y_test, y_pred))
+
